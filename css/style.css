@@ -3,3 +3,13 @@
     color: #2b2b2b;
 }
 
+.customNav{
+    background-color: #20539A !important;
+}
+
+.image{
+  float: left;
+    height: 200px;
+    align-content: flex-start;
+    width: 200px;
+}

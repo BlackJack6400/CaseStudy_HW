@@ -6,8 +6,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><strong>JsG</strong></a>
+<nav class="customNav navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="color: white;"><strong>JsG</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,13 +15,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">MappyHour <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" style="color: white;">MappyHour <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Goverment Re-Design</a>
+                <a class="nav-link" href="#" style="color: rgb(218, 218, 218);">Goverment Re-Design</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Travel Bug</a>
+                <a class="nav-link" href="#" style="color: rgb(218, 218, 218);">Travel Bug</a>
             </li>
         </ul>
     </div>
@@ -35,26 +35,56 @@
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     </div>
-    <div class="card" style="width: 100%; height: 100%;">
-        <img src="/images/logo_2.PNG" class="card-img-top" alt="Mappy Hour logo">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
+                <div class="card" style="width: 100%; height: 100%;">
+                    <img src="../bootstrap/images/1_card.png" class="image" alt="guy with coffee">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Drink It</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 100%;">
-        <img src="/images/detail.png" class="card-img-top" alt="Detail Page">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+        <div class="row">
+            <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
+                <div class="card" style="width: 100%; height: 100%;">
+                    <img src="../bootstrap/images/2_card.png" class="image" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Ouch</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 100%;">
-        <img src="/images/favorites.png" class="card-img-top" alt="Favorites Page">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+        <!-- <div class="row">
+            <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
+                <div class="card" style="width: 100%; height: 100%;">
+                    <img src="../bootstrap/images/3_card.png" class="image" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">See
+                            More</a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
+                <div class="card" style="width: 100%; height: 100%;">
+                    <img src="../bootstrap/images/4_card.png" class="image" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Is it?</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </div>
 </body>
 
